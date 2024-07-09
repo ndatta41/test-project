@@ -1,0 +1,6 @@
+rabbitmq:
+  host: 'localhost'
+  queue: 'test_queue'
+
+producer:
+  interval: 5 # in seconds

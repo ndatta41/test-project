@@ -1,0 +1,25 @@
+version: '3'
+services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+
+  producer:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.producer
+    depends_on:
+      - rabbitmq
+    environment:
+      - CONFIG_PATH=/app/config.yaml
+
+  consumer:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.consumer
+    depends_on:
+      - rabbitmq
+    environment:
+      - CONFIG_PATH=/app/config.yaml
