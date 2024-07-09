@@ -1,0 +1,64 @@
+2024-07-09 21:57:19,673 - Pika version 1.3.2 connecting to ('127.0.0.1', 5672)
+2024-07-09 21:57:19,674 - Socket connected: <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 45428), raddr=('127.0.0.1', 5672)>
+2024-07-09 21:57:19,674 - Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f3710cc5610>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f3710cc5610> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>).
+2024-07-09 21:57:19,676 - AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f3710cc5610> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+2024-07-09 21:57:19,676 - AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f3710cc5610> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+2024-07-09 21:57:19,676 - Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f3710cc5610> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+2024-07-09 21:57:19,676 - Created channel=1
+2024-07-09 21:57:19,677 - Waiting for messages. To exit, press CTRL+C
+2024-07-09 21:57:47,974 - Pika version 1.3.2 connecting to ('127.0.0.1', 5672)
+2024-07-09 21:57:47,974 - Socket connected: <socket.socket fd=7, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('127.0.0.1', 60896), raddr=('127.0.0.1', 5672)>
+2024-07-09 21:57:47,975 - Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f2faad30610>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f2faad30610> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>).
+2024-07-09 21:57:47,977 - AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f2faad30610> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+2024-07-09 21:57:47,977 - AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f2faad30610> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+2024-07-09 21:57:47,977 - Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f2faad30610> params=<ConnectionParameters host=localhost port=5672 virtual_host=/ ssl=False>>
+2024-07-09 21:57:47,977 - Created channel=1
+2024-07-09 21:57:47,979 - Waiting for messages. To exit, press CTRL+C
+2024-07-09 21:57:47,979 - Received: {
+    "message_id": "0660fb85-9476-4702-8688-aef46a487d00",
+    "created_on": "2024-07-09T21:56:42.980158"
+}
+2024-07-09 21:57:47,979 - Received: {
+    "message_id": "34ccb8d7-bb06-4866-9bed-3c809df23a08",
+    "created_on": "2024-07-09T21:57:11.052467"
+}
+2024-07-09 21:57:47,979 - Received: {
+    "message_id": "43d3603b-9575-42e6-af8d-053613f1e346",
+    "created_on": "2024-07-09T21:57:16.057069"
+}
+2024-07-09 21:57:47,979 - Received: {
+    "message_id": "e9e5ea49-599b-43c4-ac3f-bf931135c53c",
+    "created_on": "2024-07-09T21:57:21.063042"
+}
+2024-07-09 21:57:47,980 - Received: {
+    "message_id": "15266c89-c416-45c6-87fc-8ec1b8a5f3d3",
+    "created_on": "2024-07-09T21:57:26.065215"
+}
+2024-07-09 21:57:47,980 - Received: {
+    "message_id": "7303ba3e-8773-4710-8426-8d06a317f046",
+    "created_on": "2024-07-09T21:57:31.070957"
+}
+2024-07-09 21:57:47,980 - Received: {
+    "message_id": "1ea8459f-ff7e-48f6-b6ce-85f5b97fe64b",
+    "created_on": "2024-07-09T21:57:36.077143"
+}
+2024-07-09 21:57:47,980 - Received: {
+    "message_id": "ebd25c98-5b65-4064-baa2-fd1fe291ed1d",
+    "created_on": "2024-07-09T21:57:41.081008"
+}
+2024-07-09 21:57:47,980 - Received: {
+    "message_id": "1964d488-9bf4-4df5-836e-885d0e7b3e75",
+    "created_on": "2024-07-09T21:57:46.086783"
+}
+2024-07-09 21:57:51,094 - Received: {
+    "message_id": "a2196617-f656-4695-b74f-9fb09536044f",
+    "created_on": "2024-07-09T21:57:51.092657"
+}
+2024-07-09 21:57:56,098 - Received: {
+    "message_id": "f04bc421-b615-4168-a36d-7130bee068c2",
+    "created_on": "2024-07-09T21:57:56.097143"
+}
+2024-07-09 21:58:01,105 - Received: {
+    "message_id": "022847c5-2c64-4596-975d-ec0e0f83ea13",
+    "created_on": "2024-07-09T21:58:01.103222"
+}

@@ -1,4 +1,4 @@
-version: '3'
+version: '3.8'
 services:
   rabbitmq:
     image: rabbitmq:3-management
@@ -13,7 +13,7 @@ services:
     depends_on:
       - rabbitmq
     environment:
-      - CONFIG_PATH=/app/config.yaml
+      - CONFIG_PATH=/app/config/config.yaml
 
   consumer:
     build:
@@ -22,4 +22,4 @@ services:
     depends_on:
       - rabbitmq
     environment:
-      - CONFIG_PATH=/app/config.yaml
+      - CONFIG_PATH=/app/config/config.yaml
